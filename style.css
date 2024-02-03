@@ -40,6 +40,10 @@ ul > li > a {
   ul > li > a {
     margin-right: 10px;
   }
+
+  header > img {
+    width: 80px;
+  }
 }
 
 /* დასასრული  */
