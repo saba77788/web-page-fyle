@@ -36,16 +36,6 @@ ul > li > a {
   text-decoration: none;
 }
 
-@media screen and (min-width: 300px) and (max-width: 590px) {
-  ul > li > a {
-    margin-right: 10px;
-  }
-
-  header > img {
-    width: 80px;
-  }
-}
-
 /* დასასრული  */
 
 /* აქ იწყება სექცია1 */
@@ -53,6 +43,7 @@ ul > li > a {
   width: 90%;
   margin: 65px auto auto 5%;
   display: flex;
+  flex-wrap: wrap-reverse;
   justify-content: space-between;
 }
 
@@ -377,3 +368,72 @@ ul > li > a {
 }
 
 /* დასასრული  */
+@media screen and (min-width: 300px) and (max-width: 590px) {
+  * {
+    font-size: 0;
+  }
+  header {
+    width: 90%;
+    height: 24px;
+    margin: 24px auto auto 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul > li > a {
+    margin-right: 24px;
+    color: #07043b;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  header > img {
+    width: 80px;
+    height: 24px;
+  }
+  .section1 {
+    width: 90%;
+    margin: 65px auto auto 5%;
+
+    justify-content: space-between;
+  }
+
+  .section1-img > img {
+    width: 304px;
+    height: 225px;
+    float: none;
+  }
+
+  .section1-text > h1 {
+    color: #07043b;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    width: 320px;
+  }
+
+  .section1-text > p {
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  .section1-text > form > input {
+    width: 304px;
+    height: 40px;
+  }
+
+  .section1-text > form > button {
+    width: 304px;
+    height: 40px;
+    margin-top: 16px;
+  }
+}
