@@ -430,6 +430,9 @@ ul > li > a {
     line-height: 21px;
   }
 
+  .section1-text > form {
+  }
+
   .section1-text > form > input {
     width: 304px;
     height: 40px;
@@ -441,7 +444,10 @@ ul > li > a {
     margin-top: 16px;
   }
   .section2 {
-    padding: 93px 28px;
+    padding: 93px 28px 54px 28px;
+    background: url(image/Rectangle\ Copy.png);
+    background-repeat: no-repeat;
+    width: 100%;
   }
 
   .section2-div-main {
@@ -473,7 +479,7 @@ ul > li > a {
 
   .section2-a {
     width: 140px;
-    margin: 36px auto 47px auto;
+    margin: 36px auto 40px auto;
   }
 
   .section2-a > a {
@@ -483,6 +489,9 @@ ul > li > a {
   .section2-div {
     width: 280px;
     height: 186px;
+    top: 0px;
+    padding-bottom: 0px;
+    margin: auto;
   }
 
   .section2-span2 {
@@ -564,81 +573,21 @@ ul > li > a {
   /* აქ იწყება footer */
   .footer {
     padding: 65px 39px;
-    flex-wrap: wrap;
   }
 
   .footer-div {
-    display: flex;
-    margin-top: 64px;
-    justify-content: space-between;
+    display: block;
   }
 
-  .footer-div > ul > li {
-    float: none;
-    margin-top: 16px;
-    color: #fff;
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+  .footer-div > ul {
+    margin-bottom: 32px;
   }
 
-  .footer-contact > li {
-    color: #fff;
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+  .footer-social {
+    text-align: center;
   }
 
-  .footer-contact > li > img {
-    width: 24px;
-    height: 24px;
-  }
-
-  .footer-social > img {
-    background: #fff;
-    padding: 30px;
-    border: 1px solid wheat;
-    border-radius: 50%;
-    height: 20px;
-    box-sizing: content-box;
-  }
-
-  .fa-facebook-f {
-    color: #fff;
-    font-size: 18px;
-    background-color: #07043b;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    width: 35px;
-    padding: 8px 10px;
-  }
-
-  .fa-twitter {
-    color: #fff;
-    font-size: 18px;
-    background-color: #07043b;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    width: 35px;
-    padding: 8px;
-  }
-
-  .fa-instagram {
-    color: #fff;
-    font-size: 18px;
-    background-color: #07043b;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    width: 35px;
-    padding: 8px 9px;
-  }
-
-  .footer-logo {
-    width: 105px;
-    height: 30px;
+  .fa-brands {
+    margin-right: 11px;
   }
 }
