@@ -131,6 +131,7 @@ ul > li > a {
   background: url(image/Rectangle.png);
   padding: 178px 80px 107px 80px;
   margin-top: 164px;
+  flex-wrap: wrap-reverse;
 }
 
 .section2-div-main {
@@ -232,6 +233,7 @@ ul > li > a {
   background: #575988;
   padding: 100px 80px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .section3-div {
@@ -286,7 +288,7 @@ ul > li > a {
   margin-top: 16px;
   flex-shrink: 0;
   background: #2f65f8;
-  box-shadow: drop-shadow(2px 3px 6px rgba(7, 4, 59, 0.16));
+  box-shadow: 1px 1px 3px #6b6e6a;
   color: #fff;
   text-align: center;
   font-family: Raleway;
@@ -294,6 +296,8 @@ ul > li > a {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  border-color: #2f65f8;
+  outline: none;
 }
 /* დასასრული  */
 
@@ -435,5 +439,206 @@ ul > li > a {
     width: 304px;
     height: 40px;
     margin-top: 16px;
+  }
+  .section2 {
+    padding: 93px 28px;
+  }
+
+  .section2-div-main {
+    width: 100%;
+    margin-top: 87px;
+  }
+
+  .section2-div-main > h1 {
+    color: #07043b;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .section2-div-main > p {
+    color: #615f7e;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  .section2-img {
+    width: 320px;
+    height: 241px;
+  }
+
+  .section2-a {
+    width: 140px;
+    margin: 36px auto 47px auto;
+  }
+
+  .section2-a > a {
+    font-size: 12px;
+  }
+
+  .section2-div {
+    width: 280px;
+    height: 186px;
+  }
+
+  .section2-span2 {
+    font-size: 36px;
+  }
+
+  .section2-div > p {
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  .section2-user > {
+    display: flex;
+
+    margin-top: 16px;
+  }
+
+  .section2-user > h2 {
+    font-size: 9px;
+    letter-spacing: 0.45px;
+    margin-top: 1.5%;
+  }
+
+  .section2-span1 {
+    font-size: 6px;
+    line-height: 12px;
+    letter-spacing: 0.3px;
+  }
+  /* აქ იწყება სექცია3 */
+
+  .section3 {
+    padding: 54px 48px;
+  }
+
+  .section3-div {
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+  }
+  .section3-h1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .section3-div > p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 16px;
+  }
+
+  .section3-input-button {
+    width: 100%;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section3-input-button > input {
+    width: 240px;
+    height: 32px;
+    padding: 11px 8px;
+    font-size: 12px;
+    margin: 24px auto 0 auto;
+  }
+
+  .section3-input-button > input::placeholder {
+    font-size: 10px;
+  }
+
+  .section3-input-button > button {
+    width: 240px;
+    height: 32px;
+    font-size: 10px;
+    margin: 8px auto 0 auto;
+  }
+  /* დასასრული  */
+
+  /* აქ იწყება footer */
+  .footer {
+    padding: 65px 39px;
+    flex-wrap: wrap;
+  }
+
+  .footer-div {
+    display: flex;
+    margin-top: 64px;
+    justify-content: space-between;
+  }
+
+  .footer-div > ul > li {
+    float: none;
+    margin-top: 16px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .footer-contact > li {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .footer-contact > li > img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer-social > img {
+    background: #fff;
+    padding: 30px;
+    border: 1px solid wheat;
+    border-radius: 50%;
+    height: 20px;
+    box-sizing: content-box;
+  }
+
+  .fa-facebook-f {
+    color: #fff;
+    font-size: 18px;
+    background-color: #07043b;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 35px;
+    padding: 8px 10px;
+  }
+
+  .fa-twitter {
+    color: #fff;
+    font-size: 18px;
+    background-color: #07043b;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 35px;
+    padding: 8px;
+  }
+
+  .fa-instagram {
+    color: #fff;
+    font-size: 18px;
+    background-color: #07043b;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 35px;
+    padding: 8px 9px;
+  }
+
+  .footer-logo {
+    width: 105px;
+    height: 30px;
   }
 }
