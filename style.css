@@ -114,10 +114,6 @@ ul > li > a {
   border: 1px solid #2f65f8;
 }
 
-.section1-img {
-  min-width: 474px;
-}
-
 .section1-img > img {
   float: right;
   height: 100%;
